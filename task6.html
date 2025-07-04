@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task6.css">
+</head>
+<header>
+    <div class="c1">
+        <h2>Our Teams</h2>
+        <div class="c5">
+            <a href="#"> Home</a>
+            <a href="#">Team</a>
+            <a href="#"> state</a>
+            <a href="#"> contact</a>
+        </div>
+        </div>
+</header>
+<body style="background-color: #eee;">
+    <h1 style="color: cadetblue; text-align: center;">Team Members</h1>
+    <section>
+        <!-- 1 -->
+        <div class="one">
+          
+            <img src="./صوره 1.jpg"  style="width: 250px;">
+           <h3> John Smith</h3>
+           <h3 style="color: cadetblue;"> Lead Web Developer</h3>
+            <p>Specialized in web application development using modern technologies like React and Node.js. Over 5 years of experience in the field</p>
+            <div id="button"> 
+                <button>HTML</button>
+                <button>css</button>
+                <button>JavaScript</button>
+                <button>React</button>
+
+            </div>
+            <div id="button2">
+                <button>view profile</button>
+                <button>contact</button>
+                </div>
+
+        </div>
+    <!-- 2 -->
+    <div class="tow">
+          
+        <img src="./صوره 2.jpg" style="width: 250px;">
+       <h3> Mechal Omer</h3>
+       <h3 style="color: cadetblue;"> UL/UX Designer</h3>
+        <p>Specialized in web application development using modern technologies like React and Node.js. Over 5 years of experience in the field</p>
+        <div id="button3"> 
+            <button>Figma</button>
+            <button>Ul design</button>
+            <button>Ux Reserch</button>
+            <button>React</button>
+
+        </div>
+        <div id="button4">
+            <button>view profile</button>
+            <button>contact</button>
+            </div>
+
+    </div>
+    <!-- 3 -->
+     
+    <div class="three">
+          
+        <img src="./صوره 3.jpg"  style="height: 300px;">
+       <h3> sara Ali</h3>
+       <h3 style="color: cadetblue;"> software Engnering</h3>
+        <p>Specialized in web application development using modern technologies like React and Node.js. Over 5 years of experience in the field</p>
+        <div id="button5"> 
+            <button>c++</button>
+            <button>data base</button>
+            <button>JavaScript</button>
+            <button>bigdata</button>
+
+       
+        <div id="button6">
+            <button>view profile</button>
+            <button>contact</button>
+            </div>
+
+
+    </div>
+     <div class="NewCard"></div>
+    </section>
+    <footer>
+        <button id="#" onclick="fun1()">add card</button>
+        <button id="##" onclick="fun2()">remove card</button>
+    </footer>
+ 
+  
+</body>
+</html>
+
+<script>
+function fun1(){
+    const x = document.getElementById("#") ;
+    const x2 = document.createElement("div") ;
+    var name = prompt("enter your name") ;
+    var data = prompt("enter your data") ;
+    x2.innerHTML = `
+        <p> ${name}</p>
+        <p> ${data}</p>
+       
+      `;
+      x2.style.border = "1px solid #aaa";
+    x2.style.padding = "10px";
+    x2.style.margin = "10px";
+    x2.style.backgroundColor = "#fff";
+ document.getElementsByClassName("NewCard")[0].appendChild (x2);
+
+}
+function fun2(){
+    const x3 = document.getElementById("##") ;
+    let cards = document.getElementsByClassName("NewCard")[0];
+if(cards.lastChild) {
+    cards.removeChild(cards.lastChild);
+}
+
+
+}
+</script>
