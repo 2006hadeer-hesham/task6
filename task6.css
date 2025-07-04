@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.c1{
+    width: 100%;
+    
+  background-color: darkgray;
+   
+    padding: 20x;
+    display: inline-block;
+    border-radius: 20px solid;
+
+
+}
+.c1 a{
+    display: inline-block;
+}
+.c5 {
+    color: aliceblue;
+    border: none;
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+   
+}
+
+
+section{
+ display: flex;
+ width: 100%;
+ height: 90vh;
+
+
+}
+.one{
+width: 400px ;
+height: 40vh;
+border: 5px;
+border-radius: 20px solid black;
+padding: 20px;
+margin:20px;
+
+
+}
+.one:hover{
+    transform: scale(1.1 );
+}
+.tow{
+    width: 30%;
+    height: 40vh;
+    border: 5px;
+    border-radius: 20px solid black;
+    padding: 20px;
+    margin:20px;
+    
+    
+    }
+    .tow:hover{
+        transform: scale(1.1 );
+    }
+    .three{
+        width: 30%;
+        height: 40vh;
+        border: 5px;
+        border-radius: 20px solid black;
+        padding: 20px;
+        margin:20px;
+        
+        
+        }
+        .three:hover{
+            transform: scale(1.1 );
+        }
+        #button button{
+            border-radius: 10px;
+            background-color:teal;
+            padding:5px;
+            margin: 5px;
+        }
+        #button2 button{
+            border-radius: 10px;
+            background-color: lightgray;
+            padding: 10px;
+            margin: 5px;
+        }
+        #button3 button{
+            border-radius: 10px;
+            background-color:teal;
+            padding:5px;
+            margin: 5px;
+        }
+        #button4 button{
+            border-radius: 10px;
+            background-color: lightgray;
+            padding: 10px;
+            margin: 5px;
+        }
+        #button5 button{
+            border-radius: 10px;
+            background-color:teal;
+            padding:5px;
+            margin: 5px;
+        }
+        #button6 button{
+            border-radius: 10px;
+            background-color: lightgray;
+            padding: 10px;
+            margin: 5px;
+        }
+        footer{
+            display: flex;
+           justify-content: center;
+
+        }
+        footer button{
+            padding: 10px;
+            margin: 10px;
+            background-color: teal;
+            border-radius: 20px;
+        }
